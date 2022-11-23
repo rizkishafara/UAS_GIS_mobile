@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TampilData">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorGray"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Data Sekolah"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="80dp"
+            android:gravity="center"
+            android:background="@drawable/border"
+            android:text="NPSN"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:gravity="center"
+            android:layout_width="280dp"
+            android:background="@drawable/border"
+            android:text="Nama Sekolah"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvKategori"
+            android:gravity="center"
+            android:background="@drawable/border"
+            android:layout_width="70dp"
+            android:text="Status"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="120dp"
+            android:gravity="center"
+            android:background="@drawable/border"
+            android:text="Kecamatan"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="230dp"
+            android:gravity="center"
+            android:background="@drawable/border"
+            android:text="Alamat"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-2dp"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginTop="-3dp"
+            android:layout_marginBottom="3dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorGray">
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
